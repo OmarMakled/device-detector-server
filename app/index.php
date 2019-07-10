@@ -15,6 +15,7 @@ require_once '../vendor/autoload.php';
  * Set header
  */
 header('Content-type: application/json');
+header("Access-Control-Allow-Origin: *");
 
 /**
  * Run The Application
